@@ -3,14 +3,15 @@ nav
 {
     width: 100%;
     height: 100px;
-    background-color: #fff;
+    background-color: pink;
 }
 body
 {
     margin: 10px;
     padding: 10px;
     background-color: #eee;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Background.png);
 }
 #menu
 {
@@ -39,4 +40,77 @@ body
 #menu li a:hover
 {
     color:teal;
+}
+
+h1
+{
+    background-color: black;
+    color: white;
+    border: 5px grey solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: left;
+    margin-right: 1000px;
+    text-align: center;
+}
+
+.info
+{
+    background-color: pink;
+    border: 5px green dotted;
+    font-size: 18px;
+    font-family: Arial;
+    margin: 0px;
+    padding: 20px;
+}
+
+.link
+{
+    border-top: 5px solid darkgray;
+    border-left:5px solid darkgray;
+    border-right:5px solid darkgray;
+    background-color: pink;
+    margin-right: 1100px;
+    text-align: center;
+}
+
+.transcript
+{
+    background-image: url(interview.png);
+    background-color: pink;
+    border: 5px green dotted;
+    font-size: 18px;
+    font-family: Arial;
+    margin: 0px;
+    padding: 20px;
+}
+
+.transcript li
+{
+    background-color: pink;
+    border: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 600px;
+}
+
+.answer
+{
+    background-color: white;
+    border: 5px gray;
+    color: black;
+    margin-left: 10px;
+    margin-right: 600px;
+}
+
+.title
+{
+    background-color: black;
+    color: white;
+    border: 5px grey solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: left;
+    margin-right: 1000px;
+    text-align: center;
 }
